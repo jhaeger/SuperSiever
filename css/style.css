@@ -95,6 +95,24 @@ nav ul li.current-page a {
     color: var(--primary-color);
 }
 
+div#site-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+figure {
+    margin-left:0;
+    margin-right:0;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+
 .ttss-primary-btn {
     background-color: var(--button-backround-color);
     color: var(--button-color);
@@ -103,9 +121,11 @@ nav ul li.current-page a {
     font-size: 1.5rem;
     border-radius: 12px;
 }
-video {
-    max-width: 100%;
+
+div#team-photo-container {
+    text-align: center;
 }
+
 
 @media screen and (max-width: 608px) {
     .left-header-container {
@@ -138,3 +158,4 @@ video {
     }
 
 }
+
